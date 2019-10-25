@@ -29,7 +29,7 @@ class Demo extends React.Component {
     fileList.forEach(file => {
       formData.append('files[]', file);
     });
-
+console.log(formData);
     this.setState({
       uploading: true,
     });
